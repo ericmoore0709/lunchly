@@ -78,6 +78,15 @@ class Customer {
       );
     }
   }
+
+  /**
+   * Returns the first and last name as a single "full name" string
+   * @returns full name string
+   */
+  fullName() {
+    return this.firstName + " " + this.lastName;
+  }
+
 }
 
 module.exports = Customer;
